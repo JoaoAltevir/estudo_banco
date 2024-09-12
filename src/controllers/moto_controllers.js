@@ -6,7 +6,7 @@ const store = async (req,res) => {
 }
 
 const index = async (req, res) => {
-    const content = await Moto.find(req.query).exec;
+    const content = await Moto.find().exec();
     res.json(content);
 }
 
