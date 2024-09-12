@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^5.0.0",
+    "mongoose": "^8.6.1"
+  },
+  "name": "estudo_banco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srx/main.js",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
