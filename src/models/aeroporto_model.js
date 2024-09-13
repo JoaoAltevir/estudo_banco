@@ -8,7 +8,7 @@ const aeroportoSchema = new Schema({
         required: true,
     },
     adress: {
-        type: String,
+        type: Schema.Types.Array,
         required: true
     }
 })
