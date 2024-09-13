@@ -21,6 +21,6 @@ const refriSchema = new Schema({
     }
 })
 
-const Refrigerante = db.model("Refri", RefriSchema);
+const Refrigerante = db.model("Refri", refriSchema);
 
 export default Refrigerante
