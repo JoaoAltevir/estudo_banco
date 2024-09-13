@@ -1,4 +1,4 @@
-const db = require("../db.js");
+import db from "../db.js"
 
 const Schema = db.Schema
 
@@ -15,4 +15,4 @@ const canetaSchema = new Schema({
 
 const Caneta = db.model("caneta", canetaSchema);
 
-module.exports = Caneta
+export default Caneta

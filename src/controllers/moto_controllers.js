@@ -1,4 +1,4 @@
-const Moto = require("../models/moto_model.js");
+import Moto from "../models/moto_model.js"
 
 const store = async (req,res) => {
     try {
@@ -45,7 +45,7 @@ const destroy = async (req, res) => {
     }
 }
 
-module.exports = {
+export default {
     store,
     index,
     show,
